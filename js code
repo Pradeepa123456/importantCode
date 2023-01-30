@@ -1,0 +1,366 @@
+let items = [
+    {
+        "href": "https://sit.fidelity.co.uk/secure/dashboard/#/inv",
+        "iconType": "home",
+        "isExternal": "true",
+        "linkText": "Summary",
+        "listItemClassName": "primary-nav__list list--inline summary active",
+        "id": "SUMMARY",
+        "subItems": null
+    },
+    {
+        "behaviour": "sub-menu",
+        "iconType": "",
+        "linkText": "Manage Investments",
+        "listItemClassName": "",
+        "id": "MANAGE_INVESTMENTS",
+        "subItems": [
+            {
+                "categoryTitle": "Cash",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#cash/add-cash",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Add cash",
+                        "listItemClassName": "",
+                        "id": "ADD_CASH",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#cash/withdraw-cash",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Move or withdraw cash",
+                        "listItemClassName": "",
+                        "id": "WITHDRAW_CASH",
+                        "subItems": null
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Invest",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#dealing",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Buy, sell, switch",
+                        "listItemClassName": "",
+                        "id": "DEALING",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#regular-saving",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Regular savings plan",
+                        "listItemClassName": "",
+                        "id": "RSP",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/transfer",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Transfer an account to Fidelity",
+                        "listItemClassName": "",
+                        "id": "TRANSFER",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/open-account/",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Open an account",
+                        "listItemClassName": "",
+                        "id": "OPEN_ACCOUNT",
+                        "advised": "false",
+                        "subItems": null
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Manage",
+                "id": "MANAGE",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#watchlist",
+                        "iconType": "watchlist",
+                        "isExternal": "true",
+                        "linkText": "Watchlist",
+                        "listItemClassName": "item-watchlist",
+                        "id": "WATCHLIST",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#income-management",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Income management",
+                        "listItemClassName": "",
+                        "id": "INCOME_MANAGEMENT",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#transfer-tracking",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Track your transfer",
+                        "listItemClassName": "",
+                        "id": "TRACK_TRANSFER",
+                        "advised": "true",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#corporate-actions",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Corporate actions",
+                        "listItemClassName": "",
+                        "id": "CORPORATE_ACTIONS",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#tax-hub",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Tax hub",
+                        "listItemClassName": "",
+                        "id": "TAX_HUB",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk#/inv/bni",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Bed & ISA form",
+                        "listItemClassName": "",
+                        "id": "BED_AND_ISA",
+                        "mobileAppRedirect": {
+                            "href": "/canonical/1586106009/6193/",
+                            "target": "_blank"
+                        },
+                        "subItems": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "behaviour": "sub-menu",
+        "iconType": "",
+        "linkText": "Transactions & Reports",
+        "listItemClassName": "",
+        "id": "TRANSACTIONS_REPORT",
+        "subItems": [
+            {
+                "categoryTitle": "Transactions",
+                "id": "TRANSACTIONS",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#transaction-history",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Transaction history",
+                        "listItemClassName": "",
+                        "id": "TRANSACTION_HISTORY",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#transaction-history",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Pending orders",
+                        "listItemClassName": "",
+                        "id": "PENDING_ORDERS",
+                        "subItems": null
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Reports",
+                "id": "REPORTS",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#cgt",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Capital gains reports",
+                        "listItemClassName": "",
+                        "id": "CAPITAL_GAINS",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#IncomeReport",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "All income",
+                        "listItemClassName": "",
+                        "id": "ALL_INCOME",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#income-report",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Income paid",
+                        "listItemClassName": "",
+                        "id": "INCOME_PAID",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#performance-report",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Performance report",
+                        "listItemClassName": "",
+                        "id": "PERFORMANCE",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk#/inv/pnl",
+                        "iconType": "",
+                        "isExternal": "false",
+                        "linkText": "Profit and loss report",
+                        "listItemClassName": "",
+                        "id": "PROFIT_LOSS_REPORT",
+                        "advised": "false",
+                        "subItems": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "behaviour": "sub-menu",
+        "iconType": "",
+        "linkText": "Documents & Messages",
+        "listItemClassName": "documents",
+        "id": "DOCUMENTS_MESSAGES",
+        "subItems": [
+            {
+                "categoryTitle": "Documents",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/documents",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Documents",
+                        "listItemClassName": "",
+                        "id": "DOCUMENTS",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk#/inv/upload-form",
+                        "linkText": "Upload forms and documents",
+                        "isExternal": "false",
+                        "id": "UPLOAD_AND_SEND",
+                        "advised": "false",
+                        "subItems": null
+                    }
+                ]
+            } 
+        ]
+    },
+    {
+        "behaviour": "sub-menu",
+        "iconType": "",
+        "linkText": "Profile",
+        "listItemClassName": "",
+        "id": "PROFILE",
+        "subItems": [
+            {
+                "categoryTitle": "Your Information",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/personal-information",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Personal information",
+                        "listItemClassName": "",
+                        "id": "PERSONAL_INFORMATION",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/linked-accounts",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Linked accounts",
+                        "listItemClassName": "",
+                        "id": "LINKED_ACCOUNTS",
+                        "subItems": null
+                    }
+                ]
+            },
+            {
+                "categoryTitle": "Security and preferences",
+                "subItems": [
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/preferences",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Preference centre",
+                        "listItemClassName": "",
+                        "id": "PREFERENCE_CENTRE",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/login-security",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Login and security details",
+                        "listItemClassName": "",
+                        "id": "LOGIN_SECURITY",
+                        "subItems": null
+                    },
+                    {
+                        "href": "https://sit.fidelity.co.uk/secure/accounts/#user/pension-settings",
+                        "iconType": "",
+                        "isExternal": "true",
+                        "linkText": "Pension settings",
+                        "listItemClassName": "",
+                        "id": "PENSION_SETTINGS",
+                        "subItems": null
+                    }
+                ]
+            }
+        ]
+    }
+];
+
+function removePensionSetting(items) {
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i];
+      if (item.subItems) {
+        for(let j = 0; j< item.subItems.length; j++){
+          const element = item.subItems[j];
+          if(element.subItems){
+          element.subItems = element.subItems.filter(subItem => subItem.linkText  !== "Pension settings");
+          }
+        }
+       }
+    }
+    return items;
+  }
+  
+  const updatedItems = removePensionSetting(items);
+  
+    // item.subItems = item.subItems.filter(subItem => subItem.linkText  !== "Pension settings");
+    
+  
+  console.log("filteredArray=>",updatedItems);
+
+  it will remove the last object from Array
+
+  that is: 
+
+  {
+    "href": "https://sit.fidelity.co.uk/secure/accounts/#user/pension-settings",
+    "iconType": "",
+    "isExternal": "true",
+    "linkText": "Pension settings",
+    "listItemClassName": "",
+    "id": "PENSION_SETTINGS",
+    "subItems": null
+}
